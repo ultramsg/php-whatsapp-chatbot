@@ -14,7 +14,6 @@ class ultraMsgChatBot
         //composer require ultramsg/whatsapp-php-sdk
 
         require_once('ultramsg.class.php'); //Latest 2.0.1 stable
-
         //Include a dictionary to generate random words and sentences
         require_once('ultramsg-dictionary.php');
 
