@@ -5,6 +5,7 @@
 		* Class WhatsAppApi
 		* @package Ultramsg
 	*/
+
 	
     class WhatsAppApi {
         protected $token = '';
