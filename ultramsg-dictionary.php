@@ -12,6 +12,7 @@ class ultramsgDictionary
             "Will you get",
             "When will I get"
         );
+        
         $rand_quote = array_rand($quote, 1);
         $items = array(
             "Money",
