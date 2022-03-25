@@ -1,0 +1,33 @@
+## webhook json format 
+## To see how the received JSON will look this video : https://www.youtube.com/watch?v=kipBHDOsFKI
+
+array(3) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(4) "1150"
+  ["data"]=>
+  array(10) {
+    ["id"]=>
+    string(44) "false_12345292051@c.us_3EB01A01FDE1A4BDD3F7"
+    ["from"]=>
+    string(17) "12345292051@c.us"
+    ["to"]=>
+    string(16) "12345292050@c.us"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "1"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["time"]=>
+    int(1640163658)
+  }
+}
+
