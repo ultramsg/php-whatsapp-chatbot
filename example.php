@@ -13,7 +13,7 @@ class ultraMsgChatBot
         //require_once ('vendor/autoload.php'); // if you use Composer 
         //composer require ultramsg/whatsapp-php-sdk
 
-        require_once('ultramsg.class.php'); //Latest 2.0.1 stable
+        require_once('ultramsg.class.php'); //Latest 2.0.3 stable
         //Include a dictionary to generate random words and sentences
         require_once('ultramsg-dictionary.php');
 
