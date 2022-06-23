@@ -81,7 +81,7 @@ class ultramsgDictionary
 
     public function generateRandomImage()
     {
-        $random_number = rand(1, 300); // This images for test , max : 300 
+        $random_number = rand(1, 100); // This images for test , max : 300 
         $url = "https://ultramsg.s3.us-west-2.amazonaws.com/image-example/" . $random_number . ".jpg";
         return  $url;
     }
