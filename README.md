@@ -56,7 +56,7 @@ $this->client->sendChatMessage($to, date('d.m.Y H:i:s'));
 ## sendImageMessage
 Send a image to phone number or group
 ```php
-$this->client->sendImageMessage($to, "image Caption", "https://file-example.s3-accelerate.amazonaws.com/images/test.jpg");
+$this->client->sendImageMessage($to, "https://file-example.s3-accelerate.amazonaws.com/images/test.jpg", "image Caption");
 
 ```
 - $to – ID of the chat where the message should be sent for him, e.g 14155552671@c.us . 
