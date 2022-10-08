@@ -50,7 +50,7 @@ class ultraMsgChatBot
                             break;
                         }
                     case '2': {
-                            $this->client->sendImageMessage($to, "image Caption", "https://file-example.s3-accelerate.amazonaws.com/images/test.jpg");
+                            $this->client->sendImageMessage($to, "https://file-example.s3-accelerate.amazonaws.com/images/test.jpg", "image Caption");
                             break;
                         }
                     case '3': {
